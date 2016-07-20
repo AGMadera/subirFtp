@@ -24,25 +24,6 @@ public class MenuSubir{
         datosUsuario.setDominio("DireccionFtp");
 
 
-
-        /*FTPClient ftpClient = new FTPClient();
-        try {
-            ftpClient.connect("http://agmadera.galeon.com");
-
-        ftpClient.login("agmaderaInc", "150293MAderA");
-
-        int reply = ftpClient.getReplyCode();
-
-        System.out.println("Respuesta recibida de conexión FTP:" + reply);
-
-
-        if(FTPReply.isPositiveCompletion(reply))
-        {
-            System.out.println("Conectado Satisfactoriamente");
-        }else{
-            System.out.println("Imposible conectarse al servidor");
-        }*/
-
         Direcciones direcciones=new Direcciones();
         direcciones.setDireccionDestino("/aqui es donde tiene que llegar");
         direcciones.setDireccionOrigen(new File("/Aqui es donde se encuentran los archivos").listFiles());
