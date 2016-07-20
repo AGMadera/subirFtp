@@ -19,9 +19,9 @@ public class MenuSubir{
 
 
         DatosUsuario datosUsuario=new DatosUsuario();
-        datosUsuario.setUsuario("agmaderaInc");
-        datosUsuario.setPassword("150293MAderA");
-        datosUsuario.setDominio("http://agmadera.galeon.com");
+        datosUsuario.setUsuario("UsuarioFtp");
+        datosUsuario.setPassword("PasswordFtp");
+        datosUsuario.setDominio("DireccionFtp");
 
 
 
